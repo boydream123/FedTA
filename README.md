@@ -3,7 +3,7 @@ we propose a novel approach FedTA - unsupervised Federated prototype learning ap
 Temperature-Adaption. 
 **Prototype Enhancement:** During the local training process, each client can additionally introduce one prototype from other client to simultaneously conduct an extra contrastive learning training. The additional prototype is selected by the similarity between the prototypes from different clients.
 **Temperature Adaption:** To facilitate the balanced convergence rate between the local and global prototype in the Non-IID scenario, we propose an adaptive temperature to adjust the local convergence rate by alternatively updating the model parameters and the temperature.
-![Framework](./Framework_FedTA.png)
+![Framework](https://github.com/boydream123/FedTA/blob/main/Framework_FedTA.png)
 The major contributions of this paper are summarized as follows:
 1. We focus on a challenging and practical problem of unsupervised federated learning, where clients need to cooperate to discover the patterns and characteristics of the dataset. Subsequently, we propose contrastive learning methods for this challenge.
 2. We empirically find the unstable learning process caused on 
