@@ -27,7 +27,7 @@ git clone https://github.com/boydream123/FedTA.git
 pip install -r Requirement.txt
 ```
 # Experiment
-We experimented on three benchmark datasets: [MNIST](http://yann.lecun.com/exdb/mnist/), [Fashion MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist), and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html). We applied the same data set splitting and model training as in previous work for all of these data sets. Each data set is partitioned into 50 clients. and 
+We experimented on three benchmark datasets: [MNIST](http://yann.lecun.com/exdb/mnist/), [Fashion MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist), and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html). We applied the same data set splitting and model training as in previous work for all of these data sets. Each data set is partitioned into 50 clients.
 
 
 # Contributing 
